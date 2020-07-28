@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.packageManager": "yarn",
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "all",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.options.tabSize": 4,
+    "files.autoSave": "afterDelay"
+}
