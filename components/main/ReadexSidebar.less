@@ -1,0 +1,33 @@
+@import "../../layouts/template.less";
+
+.sidebar {
+    width: auto;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    background-color: @READEX_DARK_BACKGROUND;
+    color: @READEX_DARK_COLOR;
+
+    // border-right: 1px solid #555;
+
+    .menu {
+        width: 100%;
+        height: 100%;
+
+        background-color: #121212;
+        color: @READEX_DARK_COLOR;
+
+        .item {
+            background-color: #1e1e1e;
+            color: #bcbcbc;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+    }
+}
